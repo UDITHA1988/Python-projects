@@ -7,3 +7,6 @@ Note- In order to run the program, pygame module needs to be downloaded and the 
 
 2.Sudoku solver.
 The project is a program that solves sudoku puzzels by itsef. The program uses backtracking algorithm for the purpose. program solves 3x3 puzzles as to moddle the concept.
+
+3.tiktak.
+The project is a simple tiktaktoe game where two players can play with eachother.
