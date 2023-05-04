@@ -12,4 +12,3 @@ The project is a simple tiktaktoe game where two players can play with eachother
 
 4.Image Viewer.
 The project is an image viewer application built with tkinter module. It has a graphical user interface and can go forward and backwards through a collection of images showing one at a time.
-Note- You sometimes may need to download the imports to run the program. And you also need the images k1,k2,k3 and k4 (included in this repository) in the same directory to run the program.
