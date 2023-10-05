@@ -6,16 +6,19 @@ db = mysql.connector.connect(
 
 c = db.cursor()
 
-# created database
-# c.execute("CREATE DATABASE record")
+try:
+    # create database
+    c.execute("CREATE DATABASE record")
 
-# created table to put high score
-'''c.execute(
-    "CREATE TABLE col1 (hiscore smallint UNSIGNED, id int PRIMARY KEY AUTO_INCREMENT)")'''
+    # create table to put high score
+    c.execute(
+        "CREATE TABLE col1 (hiscore smallint UNSIGNED, id int PRIMARY KEY AUTO_INCREMENT)")
 
-# added 1 element to the database; wich will be kept updating
-'''c.execute("INSERT INTO col1 (hiscore) VALUES(%s)", (0,))
-db.commit()'''
+    # added 1 element to the database; wich will be kept updating
+    c.execute("INSERT INTO col1 (hiscore) VALUES(%s)", (0,))
+    db.commit()
+except:
+    pass
 
 pygame.init()
 
